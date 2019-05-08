@@ -404,47 +404,6 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# dk_Logic-Buffers-Drivers-Receivers-Transceivers_SN74LVC245A
-#
-DEF dk_Logic-Buffers-Drivers-Receivers-Transceivers_SN74LVC245A U 0 40 Y Y 1 F N
-F0 "U" -250 250 60 H V C CNN
-F1 "dk_Logic-Buffers-Drivers-Receivers-Transceivers_SN74LVC245A" -100 -400 60 V V C CNN
-F2 "digikey-footprints:SSOP-20_W5.3mm" 200 200 60 H I L CNN
-F3 "" 200 300 60 H I L CNN
-F4 "296-1231-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "SN74LVC245ADBR" 200 500 60 H I L CNN "MPN"
-F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
-F7 "Logic - Buffers, Drivers, Receivers, Transceivers" 200 700 60 H I L CNN "Family"
-F8 "http://www.ti.com/lit/ds/symlink/sn74lvc245a.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/texas-instruments/SN74LVC245AN/296-8503-5-ND/377483" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "Octal Bus Transceiver With 3-State Outputs" 200 1000 60 H I L CNN "Description"
-F11 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
-DRAW
-S -300 200 100 -1100 0 1 0 f
-X DIR 1 -400 -800 100 R 50 50 1 1 I
-X GND 10 0 -1200 100 U 50 50 1 1 W
-X B8 11 200 -800 100 L 50 50 1 1 B
-X B7 12 200 -700 100 L 50 50 1 1 B
-X B6 13 200 -600 100 L 50 50 1 1 B
-X B5 14 200 -500 100 L 50 50 1 1 B
-X B4 15 200 -400 100 L 50 50 1 1 B
-X B3 16 200 -300 100 L 50 50 1 1 B
-X B2 17 200 -200 100 L 50 50 1 1 B
-X B1 18 200 -100 100 L 50 50 1 1 B
-X ~OE 19 -400 -900 100 R 50 50 1 1 I
-X A1 2 -400 0 100 R 50 50 1 1 B
-X VCC 20 0 300 100 D 50 50 1 1 W
-X A2 3 -400 -100 100 R 50 50 1 1 B
-X A3 4 -400 -200 100 R 50 50 1 1 B
-X A4 5 -400 -300 100 R 50 50 1 1 B
-X A5 6 -400 -400 100 R 50 50 1 1 B
-X A6 7 -400 -500 100 R 50 50 1 1 B
-X A7 8 -400 -600 100 R 50 50 1 1 B
-X A8 9 -400 -700 100 R 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
 # power_+3V3
 #
 DEF power_+3V3 #PWR 0 0 Y Y 1 F P
@@ -499,6 +458,47 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
 X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# rc2014_de10_adapter-rescue_SN74LVC245A-dk_Logic-Buffers-Drivers-Receivers-Transceivers
+#
+DEF rc2014_de10_adapter-rescue_SN74LVC245A-dk_Logic-Buffers-Drivers-Receivers-Transceivers U 0 40 Y Y 1 F N
+F0 "U" -250 250 60 H V C CNN
+F1 "rc2014_de10_adapter-rescue_SN74LVC245A-dk_Logic-Buffers-Drivers-Receivers-Transceivers" -100 -400 60 V V C CNN
+F2 "digikey-footprints:SSOP-20_W5.3mm" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "296-1231-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "SN74LVC245ADBR" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "Logic - Buffers, Drivers, Receivers, Transceivers" 200 700 60 H I L CNN "Family"
+F8 "http://www.ti.com/lit/ds/symlink/sn74lvc245a.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/texas-instruments/SN74LVC245AN/296-8503-5-ND/377483" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "Octal Bus Transceiver With 3-State Outputs" 200 1000 60 H I L CNN "Description"
+F11 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -300 200 100 -1100 0 1 0 f
+X DIR 1 -400 -800 100 R 50 50 1 1 I
+X GND 10 0 -1200 100 U 50 50 1 1 W
+X B8 11 200 -800 100 L 50 50 1 1 B
+X B7 12 200 -700 100 L 50 50 1 1 B
+X B6 13 200 -600 100 L 50 50 1 1 B
+X B5 14 200 -500 100 L 50 50 1 1 B
+X B4 15 200 -400 100 L 50 50 1 1 B
+X B3 16 200 -300 100 L 50 50 1 1 B
+X B2 17 200 -200 100 L 50 50 1 1 B
+X B1 18 200 -100 100 L 50 50 1 1 B
+X ~OE 19 -400 -900 100 R 50 50 1 1 I
+X A1 2 -400 0 100 R 50 50 1 1 B
+X VCC 20 0 300 100 D 50 50 1 1 W
+X A2 3 -400 -100 100 R 50 50 1 1 B
+X A3 4 -400 -200 100 R 50 50 1 1 B
+X A4 5 -400 -300 100 R 50 50 1 1 B
+X A5 6 -400 -400 100 R 50 50 1 1 B
+X A6 7 -400 -500 100 R 50 50 1 1 B
+X A7 8 -400 -600 100 R 50 50 1 1 B
+X A8 9 -400 -700 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
